@@ -1,162 +1,134 @@
-Metadaten
-=========
+ Metadaten
+===
+ 
+ [Metadaten](http://andreas-pfund.de/definition/metadaten/metadaten.php) sind Daten über Daten, also Informationen über andere Informationsressourcen. Sie sind besonders wichtig bei größeren Datenmengen und müssen maschinell lesbar und auswertbar sein.
+ Metadaten definieren die Struktur der Daten, wie sie gespeichert werden und dokumentiert werden sollen.
+ 
 
-[Metadaten](http://andreas-pfund.de/definition/metadaten/metadaten.php) sind Daten über Daten, also Informationen über andere Informationsressourcen. Sie sind besonders wichtig bei größeren Datenmengen und müssen maschinell lesbar und auswertbar sein.
-Metadaten definieren die Struktur der Daten, wie sie gespeichert werden und dokumentiert werden sollen.
+**Formate für Metadaten**
 
-
-> 
-Formate für Metadaten
-- ISO 19xxx
-- RDF
-- OWL
-- OGC Catalog
-- Folksonomies
-- microformats
-- Dublin Core
-  
-  
-ISO 19xxx Standards
-----
-
-
-**Standards**
-
+* ISO 19xxx
+* RDF
+* OWL
+* OGC Catalog
+* Folksonomies
+* microformats
+* Dublin Core
+   
+   
+ ISO 19xxx Standards
+ ----
+ 
+ 
+ **Standards**
+ 
 Stellen Anforderungen, Spezifikationen, Richtilinien oder Eigenschaften für Materialien, Produkte, Prozesse oder Dienste bereit. Außerdem stellen sie sicher, dass Daten austauschbar, sicher, zuverlässig, von guter Qualität und vielseitig benutzbar sind.
+ 
 
->**19xxx Standards**
-- [PDF 19005](http://de.wikipedia.org/wiki/PDF/A), [Qualitätsmanagement 19011](http://de.wikipedia.org/wiki/ISO_19011), [Document Schema Definition Languages (DSDL) 19757](http://de.wikipedia.org/wiki/Document_Schema_Definition_Languages)
-- [Geoinformation 191xx](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCEQFjAA&url=https%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FWDM%2FIPET-MI-II%2Fdraft_guidance_catalogues.doc&ei=1s0qVNbXPILAPOKIgPgO&usg=AFQjCNH3tp9Ey7q3luOnF4guzmljl0N-ZA&sig2=-kO1OjzrS-RVrOX_dNICbw&bvm=bv.76477589,d.ZWU&cad=rja)
-    - [Raumbezugsschema 19107](http://de.wikipedia.org/wiki/ISO_19107)
-    - [Regel zur Erstellung von Anwendungsschemata 19109](http://de.wikipedia.org/wiki/ISO_19109)
-    - [Geographisches Objekt](http://de.wikipedia.org/wiki/Geographisches_Objekt)
-    - [Koordinatenreferenzsysteme 19111](http://de.wikipedia.org/wiki/ISO_19111)
-    - [Qualitätsgrundsätze 19113](http://de.wikipedia.org/wiki/ISO_19113)
-    - [Metadaten 19115](http://de.wikipedia.org/wiki/ISO_19115)
-    - [Coverage Geometrie u. Funktionsschema 19123](http://de.wikipedia.org/wiki/ISO_19123)
-    - [Registrierungsverfahren für geographische Informationseinheiten 19135](http://de.wikipedia.org/wiki/ISO_19135)
-    - [Geography Markup Language (GML) 19136](http://de.wikipedia.org/wiki/ISO_19136)
+**19xxx Standards**
+ - [PDF 19005](http://de.wikipedia.org/wiki/PDF/A), [Qualitätsmanagement 19011](http://de.wikipedia.org/wiki/ISO_19011), [Document Schema Definition Languages (DSDL) 19757](http://de.wikipedia.org/wiki/Document_Schema_Definition_Languages)
+ - [Geoinformation 191xx](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCEQFjAA&url=https%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FWDM%2FIPET-MI-II%2Fdraft_guidance_catalogues.doc&ei=1s0qVNbXPILAPOKIgPgO&usg=AFQjCNH3tp9Ey7q3luOnF4guzmljl0N-ZA&sig2=-kO1OjzrS-RVrOX_dNICbw&bvm=bv.76477589,d.ZWU&cad=rja)
+     - [Raumbezugsschema 19107](http://de.wikipedia.org/wiki/ISO_19107)
+     - [Regel zur Erstellung von Anwendungsschemata 19109](http://de.wikipedia.org/wiki/ISO_19109)
+     - [Geographisches Objekt](http://de.wikipedia.org/wiki/Geographisches_Objekt)
+     - [Koordinatenreferenzsysteme 19111](http://de.wikipedia.org/wiki/ISO_19111)
+     - [Qualitätsgrundsätze 19113](http://de.wikipedia.org/wiki/ISO_19113)
+     - [Metadaten 19115](http://de.wikipedia.org/wiki/ISO_19115)
+     - [Coverage Geometrie u. Funktionsschema 19123](http://de.wikipedia.org/wiki/ISO_19123)
+     - [Registrierungsverfahren für geographische Informationseinheiten 19135](http://de.wikipedia.org/wiki/ISO_19135)
+     - [Geography Markup Language (GML) 19136](http://de.wikipedia.org/wiki/ISO_19136)
+ 
 
-[**191xx Standards**](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDYQFjAD&url=http%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FTECO-WIS%2F1-3-1_WMO-PKerherve_ISO-191xx-Geographic.pps&ei=2GkpVOrJBYHB7AaEkoCAAw&usg=AFQjCNGxQwO62dlzZ0sAa56KZowWUg6XFg&sig2=9K4x9c7E6p2uwy4SJNivyg&bvm=bv.76247554,d.ZGU&cad=rjahttps://www.google.de/url?) behandeln digitale Geoinformationen. Durch das Definieren, Beschreiben und Regeln wird Interoperabilität von Geoinformationssystemen ermöglicht. So können Geoinformationen plattformunabhängig benutzt werden.
+ [**191xx Standards**](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDYQFjAD&url=http%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FTECO-WIS%2F1-3-1_WMO-PKerherve_ISO-191xx-Geographic.pps&ei=2GkpVOrJBYHB7AaEkoCAAw&usg=AFQjCNGxQwO62dlzZ0sAa56KZowWUg6XFg&sig2=9K4x9c7E6p2uwy4SJNivyg&bvm=bv.76247554,d.ZGU&cad=rjahttps://www.google.de/url?) behandeln digitale Geoinformationen. Durch das Definieren, Beschreiben und Regeln wird Interoperabilität von Geoinformationssystemen ermöglicht. So können Geoinformationen plattformunabhängig benutzt werden.
+ 
 
-<img src="ISO_UEBERSICHT.jpg" alt="ISO_UEBERSICHT.jpg">
+[Übersicht ISO19xxx](https://www.dropbox.com/s/bocu2qry0dabq53/ISO%20Standards.jpg?dl=0)
+ 
+ 
+ 
+ RDF - Resource Description Framework
+ ----
+ 
+[RDF](http://www.w3.org/RDF/) ist ein System zur Beschreibung von Ressourcen. Ursprünglich war es ein Standard zur Beschreibung von Metadaten, mittlerweile ist es ein grundlegender Baustein des [semantischen Webs](http://www.itwissen.info/definition/lexikon/Semantisches-Web-semantic-web.html). RDF ist sehr nützlich, um global einen eindeutigen Bezeichner für Ressourcen zu haben.
+ 
+ **Tripel**
+ 
+ Im RDF-Modell, welches eine formale Semantik besitzt und auf dem gerichteten Graphen basiert, enthält eine Aussage Subjekt, Prädikat und Objekt. Eine Ressource wird als Subjekt mit einer anderen Ressource oder einem Wert als Objekt mit einer weiteren Ressource als Prädikat näher beschrieben.
+ 
+ Ein Tripel stellt eine Behauptung dar: Subjekt und Objekt miteinander in Beziehung/Relation gesetzt.
+ 
+ ```sh
+ Subjekt ------> Objekt 
+ 	    Prädikat
+ 
+        * Geoinformatik enthält Geodatenmanagement
+ 
+        * Bäume haben Blätter
+ 
+        * Straßen bilden Netzwerke
+        
+     Subjekte: Geoinformatik, Bäume, Straßen
+     Prädikate: enthält, haben, bilden
+     Objekte: Geodatenmanagement, Blätter, Netzwerke
+ 
+ ```
+ 
+ 
+ 
+ **URI - Uniform Resource Identifier**
+ 
+ 
+ Eine Ressourcen ist eindeutig bezeichnet und kann Subjekt Prädikat oder Objekt sein. Objekte können auch ein Literal sein, d.h. eine Zeichenkette wie z.B. Wahrheitswerte, Zahlen oder Datumsanganben.
+ 
+ RDF-Ressourcen werden durch einen eindeutigen Bezeichner, eine URI, identifiziert. Diese ähneln der Form einer URL, denn sie ist eine spezielle URI zum identifizieren von Websites.
+ 
+ Beispiel
+ ```sh
+ 
+     URI einer Website: http://geofs.uni-muenster.de/geoinf/doku.php
+ 
+     URI einer Mailadresse: mailto:fsgi@uni-muenster.de
+ 
+     URI eines Buches: urn:isbn:3-87907-265-5
+ 
+ ```
+ 
+ Code-Beispiel
+ ```sh
+ <?xml version="1.0"?>
+ 
+ <rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:cd="http://www.recshop.fake/cd#">
+ 
+ <rdf:Description
+ rdf:about="http://www.recshop.fake/cd/Empire Burlesque">
+   <cd:artist>Bob Dylan</cd:artist>
+   <cd:country>USA</cd:country>
+   <cd:company>Columbia</cd:company>
+   <cd:price>10.90</cd:price>
+   <cd:year>1985</cd:year>
+ </rdf:Description>
+ 
+ <rdf:Description
+ rdf:about="http://www.recshop.fake/cd/Hide your heart">
+   <cd:artist>Bonnie Tyler</cd:artist>
+   <cd:country>UK</cd:country>
+   <cd:company>CBS Records</cd:company>
+   <cd:price>9.90</cd:price>
+   <cd:year>1988</cd:year>
+ </rdf:Description>
+ 
+ </rdf:RDF> 
+ ```
+ 
+ XMP (Extensible Metadata Platform) ist eine praktische Anwendung von RDF. 
+ [Weitere Informationen hierzu](http://www.pdfa.org/2011/09/pdfa-metadaten-xmp-rdf-dublin-core/?lang=de)
+ 
+ Auch [SPARQL](http://www.w3.org/TR/rdf-sparql-query/) (SPARQL Protocol And RDF Query Language) und [GeoSPARQL](http://www.opengeospatial.org/standards/geosparql) sind graph-basierte Abfragesprachen für RDF. Hiermit können Daten im Internet repräsentiert werden. Ein Beispiel für GeoSPARQL und direktes Testen von Anfragen ist [hier](http://www.geosparql.org/) möglich.
+# OWL - Web Ontology Language #
 
-
-
-RDF - Resource Description Framework
-----
-
-[RDF](http://www.w3.org/RDF/) ist ein System zur Beschreibung von Ressourcen. Ursprünglich war es ein Standard zur Beschreibung von Metadaten, mittlerweile ist es ein grundlegender Baustein des semantischen Webs. RDF ist sehr nützlich, um global einen eindeutigen Bezeichner für Ressourcen zu haben.
-
-**Tripel**
-
-Im RDF-Modell, welches eine formale Semantik besitzt und auf dem gerichteten Graphen basiert, enthält eine Aussage Subjekt, Prädikat und Objekt. Eine Ressource wird als Subjekt mit einer anderen Ressource oder einem Wert als Objekt mit einer weiteren Ressource als Prädikat näher beschrieben.
-
-Ein Tripel stellt eine Behauptung dar: Subjekt und Objekt miteinander in Beziehung/Relation gesetzt.
-
-```sh
-Subjekt --> Objekt Prädikat
-
-       * Geoinformatik enthält Geodatenmanagement
-
-       * Bäume haben Blätter
-
-       * Straßen bilden Netzwerke
-       
-    Subjekte: Geoinformatik, Bäume, Straßen
-    Prädikate: enthält, haben, bilden
-    Objekte: Geodatenmanagement, Blätter, Netzwerke
-
-```
-
-
-
-**URI - Uniform Resource Identifier**
-
-
-Eine Ressourcen ist eindeutig bezeichnet und kann Subjekt Prädikat oder Objekt sein. Objekte können auch ein Literal sein, d.h. eine Zeichenkette wie z.B. Wahrheitswerte, Zahlen oder Datumsanganben.
-
-RDF-Ressourcen werden durch einen eindeutigen Bezeichner, eine URI, identifiziert. Diese ähneln der Form einer URL, denn sie ist eine spezielle URI zum identifizieren von Websites.
-
-Beispiel
-```sh
-
-    URI einer Website: http://geofs.uni-muenster.de/geoinf/doku.php
-
-    URI einer Mailadresse: mailto:fsgi@uni-muenster.de
-
-    URI eines Buches: urn:isbn:3-87907-265-5
-
-```
-
-Code-Beispiel
-```sh
-<?xml version="1.0"?>
-
-<rdf:RDF
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-xmlns:cd="http://www.recshop.fake/cd#">
-
-<rdf:Description
-rdf:about="http://www.recshop.fake/cd/Empire Burlesque">
-  <cd:artist>Bob Dylan</cd:artist>
-  <cd:country>USA</cd:country>
-  <cd:company>Columbia</cd:company>
-  <cd:price>10.90</cd:price>
-  <cd:year>1985</cd:year>
-</rdf:Description>
-
-<rdf:Description
-rdf:about="http://www.recshop.fake/cd/Hide your heart">
-  <cd:artist>Bonnie Tyler</cd:artist>
-  <cd:country>UK</cd:country>
-  <cd:company>CBS Records</cd:company>
-  <cd:price>9.90</cd:price>
-  <cd:year>1988</cd:year>
-</rdf:Description>
-
-</rdf:RDF> 
-```
-
-XMP (Extensible Metadata Platform) ist eine praktische Anwendung von RDF. 
-[Weitere Informationen hierzu](http://www.pdfa.org/2011/09/pdfa-metadaten-xmp-rdf-dublin-core/?lang=de)
-
-
-
-OGC - Catalog
----
-
-[Open Geospatial Consortium](http://www.opengeospatial.org/) ist eine Organisation, die Standards im Bezug auf Geodaten bereitstellt.
-Diese stellen unter anderem folgenden Dienst bereit: [OGC - Catalog](http://www.opengeospatial.org/standards/cat)
-
-<img src="OGC_GRAFIK.png" width="500" alt="OGC_GRAFIK-png">
-
-Dieser bietet die Möglichkeit eine Ansammlung von Metadaten zu veröffentlichen und zu durchsuchen. Die dort hinterlegten Daten sind nur beschreibende Metadaten, welche durch gängige ISO Standards codiert wurden (z.B. ISO 19115 und 19119).
-
-**Operationen**
-
-* GetCapabilities
-	* Abfragen, die diesen Catalog Service beschreiben
-* DescribeRecord
-	* Abfrage des XML-Schemas der Metadaten, die eine bestimmte Ressource beschreiben
-* GetRecords
-	* Abfrage von Metadaten der Ressourcen
-* GetRecordById
-	* Abfrage von Metadaten der Ressource mit einer bestimmten ID
-* Transaction
-	* Erstellen, Verändern und Löschen von bestimmten Metadaten
-* Harvest
-	* Einfügen oder Aktualisieren von Metadaten durch einlesen von Metadaten anderer Archive (repositories)
-
-**Beispiel**
-```sh
-http://www.geoportal1.nrw.de/soapServices/CSWStartup?service=CSW&version=2.0.2&request=GetCapabilities
-```
-
-OWL - Web Ontology Language
----
-
-[Web Ontology Language](http://www.w3.org/2001/sw/wiki/OWL) (= OWL) ist eine formale Beschreibungssprache zur Erstellung, Publikation und Verteilung von Ontologien. Technisch basiert sie auf der RDF-Syntax, allerdings weißt die OWL eine höhere Ausdrucksmächtigkeit auf. Aus diesem Grund wird OWL im Web-Bereich bevorzugt, außerdem dient sie dazu Daten zu verarbeiten und nicht "nur" darzustellen.
+Web Ontology Language (= OWL) ist eine formale Beschreibungssprache zur Erstellung, Publikation und Verteilung von Ontologien. Technisch basiert sie auf der RDF-Syntax, allerdings weißt die OWL eine höhere Ausdrucksmächtigkeit auf. Aus diesem Grund wird OWL im Web-Bereich bevorzugt, außerdem dient sie dazu Daten zu verarbeiten und nicht "nur" darzustellen.
 
 ## 3 Untersprachen ##
 Bei jeder Untersprache gelden folgende Beziehungen, aber nicht Umgekehrt:
@@ -167,18 +139,19 @@ Bei jeder Untersprache gelden folgende Beziehungen, aber nicht Umgekehrt:
 * Jede gültige OWL DL Schlussfolgerung ist eine gültige OWL Full Schlussfolgerung
 
 ### OWL - Lite ###
-Unterstützt Nutzer, die Klassifikationshierarchien und einfache Restriktionen benötigen.
+Unterstützt Nutzer, die Klassifikationshierarchien und einfache Restriktionen benötigen. Hierbei können z.B. bei den Kardinalitäten nur die Werte "0" oder "1" gestetzt werden.
 
 ### OWL - DL ###
-Unterstützt Nutzer, die eine maximale Ausdrucksstärke bei vollständiger Verarbeitbarkeit und Entscheidbarkeit haben möchte. Dies schließen alle Sprachkonstruktionen ein, welche man dann, nur unter bestimmten Voraussetzungen benutzen kann.
+Unterstützt Nutzer, die eine maximale Ausdrucksstärke bei vollständiger Verarbeitbarkeit (alle Folgerungen können garantiert gezogen werden) und [Entscheidbarkeit](http://de.wikipedia.org/wiki/Entscheidbar) (jede Verarbeitung wird in endlicher Zeit durchgeführt) haben möchte. Dies schließen alle Sprachkonstruktionen ein, welche man nur unter bestimmten Voraussetzungen benutzen kann.
 ###### Beispiel ######
-Eine Klasse kann Unterklasse von vielen Klassen sein, aber nur Instanz von einer anderen Klasse.
+Eine Klasse kann Unterklasse von vielen Klassen sein, aber nur Instanz von einer anderen Klasse (Typunterscheidung).
 
 ### OWL - Full ###
-Unterstützt Nutzer, die volle Ausdrucksstärke und syntaktische Freiheit haben möchten. Allerdings muss man hierbei beachten, dass es keine Gewissheit gibt, ob man diese letzten endes verwenden kann.
+Unterstützt Nutzer, die volle Ausdrucksstärke und syntaktische Freiheit haben möchten. Allerdings muss man hierbei beachten, dass es keine Gewissheit gibt, ob diese Menge an Ausdrucksstärke nachher verwendbar ist.
+Weiter ist es möglich das Vokabular zu erweitern, was eine Frage auf wirft: Welche Software schafft die komplette Schlussfolgerung der Ontologien? - Keine, da die Ontologien immer erweitert werden können und sich somit die Software auch selbstständig anpassen müsste.
 ###### Beispiel ######
-Eine Klasse wird als Collection von Individuen behandelt,kann  aber auch als ein eigenes Individuum.
-
+Eine Klasse wird als Collection von Individuen behandelt, kann aber auch als ein eigenes Individuum behandelt werden.
+	
 ## Struktur ##
 #### Header ####
 Beschreibt und führt Informationen über:
@@ -211,53 +184,95 @@ Beschreibt und führt Informationen über:
 ###### 1. Beispiel ######
 Das UML-Diagramm zeigt, dass *Stadt* eine Unterklasse von *Ort* ist und der widerrum eine Unterklasse von *Gebiet*. Weiter wird festgelegt, dass *Berlin* eine Instanz von *Stadt* ist.
 
-<img src="OWL_BSP1.png" width="150" align="center" alt="Bild: OWL_BSP1.png">
+[Beispieldiagramm](https://www.dropbox.com/s/9ykxh0wjqjgl9sc/OWL_BSP1.png?dl=0)
 
-```sh
-	<owl:Class rdf:ID="Ort"/>
-	<owl:Class rdf:ID="Stadt"> 
-		<rdfs:subClassOf rdf:resource="#Ort"/> 
-	</owl:Class>
-  <Stadt rdf:ID="Berlin"/>
-
-```
+<pre><code>
+	&lt;owl:Class rdf:ID="Ort"/>
+	&lt;owl:Class rdf:ID="Stadt"> 
+		&lt;rdfs:subClassOf rdf:resource="#Ort"/> 
+	&lt;/owl:Class>
+	&lt;Stadt rdf:ID="Berlin"/>
+</code>
+</pre>
 
 ###### 2. Beispiel ######
 Das UML-Diagramm zeigt die Beziehung zwischen *Wein* und einer *Weinkellerei*, nämlich *hergestelltVon*.
 
-<img src="OWL_BSP2.png" alt="Bild: OWL_BSP2.png">
+[Beispieldiagramm](https://www.dropbox.com/s/nb8ywg3qh95ai6w/OWL_BSP2.png?dl=0)
 
-```sh
-<owl:ObjectProperty rdf:ID="hergestelltVon"> 
-	<rdfs:domain rdf:resource="&owl;Thing"/> 
-	<rdfs:range rdf:resource="&owl;Thing"/>
-</owl:ObjectProperty> 
+<pre><code>
+&lt;owl:ObjectProperty rdf:ID=„hergestelltVon"> 
+	&lt;rdfs:domain rdf:resource=„&owl;Thing"/> 
+	&lt;rdfs:range rdf:resource=„&owl;Thing"/>
+&lt;/owl:ObjectProperty> 
 
-<owl:Class rdf:ID="Wein">
-	<rdfs:subClassOf>
-		<owl:Restriction>
-			<owl:onProperty rdf:resource="hergestelltVon"/>
-			<owl:allValuesFrom rdf:resource="Weinkellerei"/>
-			<owl:cardinality>1</owl:cardinality> 
-		</owl:Restriction>
-	</rdfs:subClassOf>
-</owl:Class>
-```
+&lt;owl:Class rdf:ID=„Wein">
+	&lt;rdfs:subClassOf>
+		&lt;owl:Restriction>
+			&lt;owl:onProperty rdf:resource=„hergestelltVon“/>
+			&lt;owl:allValuesFrom rdf:resource=„Weinkellerei“/>
+			&lt;owl:cardinality>1</owl:cardinality> 
+		&lt;/owl:Restriction>
+	&lt;/rdfs:subClassOf>
+&lt;/owl:Class>
+</code>
+</pre>
 
 Der Header zeigt an, welche Beziehung beschrieben wird und welche *domain* und *range* gegeben sind. Hier: alle Elemente der Klasse *owl:Thing*. Im Body wird die Klasse *Wein* genauer beschrieben, nämlich dass *Wein* alle Werte der *Weinkellerei* übernehmen soll, von dieser hergestellt wird und nur von genau einer hergestellt wird.
+
+# OGC - Catalog #
+
+[Open Geospatial Consortium](http://www.opengeospatial.org/) ist eine Organisation, die Standards im Bezug auf Geodaten bereitstellt.
+Diese stellen unter anderem folgenden Dienst bereit: [OGC - Catalog](http://www.opengeospatial.org/standards/cat)
+
+[Übersicht: OGC - Catalog](https://www.dropbox.com/s/hlts7l52ld5plf1/OGC_GRAFIK.png?dl=0)
+
+Dieser bietet die Möglichkeit eine Ansammlung von Metadaten zu veröffentlichen und zu durchsuchen. Die dort hinterlegten Daten sind nur beschreibende Metadaten, welche durch gängige ISO Standards codiert wurden (z.B. ISO 19115 und 19119).
+
+### Operationen ###
+
+* GetCapabilities
+* Abfragen, die diesen Catalog Service beschreiben
+* DescribeRecord
+* Abfrage des XML-Schemas der Metadaten, die eine bestimmte Ressource beschreiben
+* GetRecords
+* Abfrage von Metadaten der Ressourcen
+* GetRecordById
+* Abfrage von Metadaten der Ressource mit einer bestimmten ID
+* Transaction
+* Erstellen, Verändern und Löschen von bestimmten Metadaten
+* Harvest
+* Einfügen oder Aktualisieren von Metadaten durch einlesen von Metadaten anderer Archive (repositories)
+
+**Beispiel**
+
+```sh
+http://www.geoportal1.nrw.de/soapServices/CSWStartup?service=CSW&version=2.0.2&request=GetCapabilities
+```
+
+## Weitere Datenmodelle ##
+Folgende sind weitere Datenmodelle, die auch häufig als Standart benutzt werden: 
+
+### ebRIM ###
+Electronic Business Registry Information Model (= [ebRIM](http://www.opengeospatial.org/standards/requests/29)) ist eine auf ebXML basierende Anwendung für Registrierungsservices und ist sowohl ein ISO-Standart, als auch ein Standart der [OASIS](https://www.oasis-open.org/).
 
 
 # Folksonomy #
 
-> *„**Folksonomy*** is the result of **personal free tagging** of information and objects (anything with a URL) for one's own retrieval. The tagging is done **in a social environment** (usually shared and open to others). Folksonomy is **created** from the act of tagging **by the person consuming the information**.“*
+>[*„Folksonomy"*](http://www.wissensstrukturplan.de/wissensstrukturplan/glossar/f_folk.php
+) is the result of **personal free tagging** of information and objects (anything with a URL) for one's own retrieval. The tagging is done **in a social environment** (usually shared and open to others). Folksonomy is **created** from the act of tagging **by the person consuming the information**.“
 
-[Folksonomy](http://www.socialtagging.org/) setzt sich aus *Folks* und *Taxonomie* zusammen. Es gibt bei einer Folksonomy keine hierarchische Struktur, die Tags sind gleichwertig.
-Tags sind simple Tupel aus *Bezeichnendem, Bezeichnetem, Tag und ggf. der Zeit*.
+Folksonomy setzt sich aus *Folks* und *Taxonomie* zusammen.
+
+Das Konzept von Folksonomien nutzen: Flickr, YouTube, Delicious und andere Online-Platformen, die ähnlich arbeiten.
+OpenStreetMap ist ein weiteres Beispiel, die Funktionsweise könnte wie folgt beschreibeen werden:
+folk (Leute)+ taxis (Klassifikation)+ nomos (Management). Ein Problem hierbei ist, dass unterschiedliche Nutzer dem gleichen Objekten möglicherweise unterschiedliche "Tags" zuordnen.
+Auch kann man sich an dieser Stelle streiten, ob OpenStreetMap eien Folksonomy oder eine Taxonomy ist.
 
 
 # Microformats #
 
-Microformats( zu Deutsch Mikroformate) ist eine Sammlung von Auszeichnungsformaten zur semantischen Annotation von HTML oder XHTML, die sowohl gut lesbar für Menschen als auch für Maschinen sind. Ein Microformat beschreibt ein spezifisches Themengebiet (Personen, Plätze, Veranstaltungen, …) Diese Auszeichnungen lassen sich einfach aus den Internetseiten auslesen ( Beispiel : Firefox Plug-in„Operator“)
+Microformats( zu Deutsch Mikroformate) ist eine Sammlung von Auszeichnungsformaten zur semantischen Annotation von HTML oder XHTML, die sowohl gut lesbar für Menschen als auch für Maschinen sind. Ein Microformat beschreibt ein spezifisches Themengebiet (Personen, Plätze, Veranstaltungen, …) Diese Auszeichnungen lassen sich einfach aus den Internetseiten auslesen ( Beispiel : [Firefox Plug-in„Operator“](https://addons.mozilla.org/de/firefox/addon/operator/))
 ## Bespiele von Microformats ##
 * hCard
 * hCalendar
@@ -379,7 +394,7 @@ und hier wie es angezeigt wird:
 </pre>
 
 # Dublin Core #
-Ist ein Datenformat welches Dokumente und Objekte so beschreibt, damit diese leichter auffindbar sind. Es wurde 1995 bei einer Konferenz beschlossen. Seit 2009 ist es ein ISO Standard: [ISO 15836](http://www.iso.org/iso/catalogue_detail.htm?csnumber=52142). Die Elemente von Dublin Core dürfen in einer beliebigen Reihenfolge, so oft wie man will genutzt werden. Jedes Element ist optional.
+Ist ein Datenformat welches Dokumente und Objekte so beschreibt, damit diese leichter auffindbar sind. Es wurde 1995 bei einer Konferenz in [Dublin](http://de.wikipedia.org/wiki/Dublin_%28Ohio%29) (Nicht in Irland) beschlossen. Seit 2009 ist es ein ISO Standard: [ISO 15836](http://www.iso.org/iso/catalogue_detail.htm?csnumber=52142). Die Elemente von Dublin Core dürfen in einer beliebigen Reihenfolge, so oft wie man will genutzt werden. Jedes Element ist optional.
 ## Die 15 Kernfelder von Dublin Core Metadata Element Set  1.1 ##
 
 Englische [Spezifikation](http://dublincore.org/documents/dces/)
@@ -439,7 +454,7 @@ Einbinden in HTML im &lt;head>-Teil:
 		<meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF" content="2006-03-08" />
 	</head>
 
-Außer den genannten 15 Kerfeldern gibt es noch weitere Attribute von Dublin Core die zur Beschreibung eines Objektes dienen können. Diese findet man [hier](http://dublincore.org/documents/dcmi-terms/). Es gibt einen einfachen [Online-Code-Generator](http://www.dublincoregenerator.com/generator_nq.html
+Außer den genannten 15 Kernfeldern gibt es noch weitere Attribute von Dublin Core die zur Beschreibung eines Objektes dienen können. Diese findet man [hier](http://dublincore.org/documents/dcmi-terms/). Diese DCMI terms sind weitere Felder ,welche eine Beschreibung oder Kategorisierung von Daten erlauben. Es gibt einen einfachen [Online-Code-Generator](http://www.dublincoregenerator.com/generator_nq.html
 ).
 
 # Quellen #
